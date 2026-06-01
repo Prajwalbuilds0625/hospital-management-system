@@ -1,0 +1,151 @@
+/* =========================
+   GLOBAL
+========================= */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero-section {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.card {
+  border: none;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.shadow {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+}
+
+/* =========================
+   ABOUT PAGE
+========================= */
+
+.about-image {
+  border-radius: 10px;
+}
+
+/* =========================
+   DOCTOR CARDS
+========================= */
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* =========================
+   FORMS
+========================= */
+
+.form-control {
+  padding: 12px;
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+/* =========================
+   TABLES
+========================= */
+
+.table {
+  background: white;
+}
+
+.table th {
+  background: #0d6efd;
+  color: white;
+}
+
+/* =========================
+   ADMIN DASHBOARD
+========================= */
+
+.admin-card {
+  transition: 0.3s;
+}
+
+.admin-card:hover {
+  transform: scale(1.03);
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  margin-top: 50px;
+}
+
+footer h5 {
+  margin-bottom: 10px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .card-img-top {
+    height: 220px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+}
